@@ -18,6 +18,7 @@ public class Main {
                 System.out.println("Introduce el número final:");
                 int numFinalIntervalo = sc.nextInt();
                 int contador = 0;
+                //h
 
                 System.out.println("Buscando primos...");
                 System.out.println("Números primos en el intervalo:");
