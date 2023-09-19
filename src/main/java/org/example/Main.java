@@ -23,7 +23,6 @@ public class Main {
                     if (esPrimo(i)) {
                         contador++;
                         System.out.println(i);
-                        ///h
                     }
                 }
                 System.out.println("Se han encontrado " + contador + " números primos.");
