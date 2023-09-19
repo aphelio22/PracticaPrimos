@@ -12,6 +12,9 @@ public class Main {
         do {
             System.out.println("Escribe el número inicial (0 para salir)");
             numInicioIntervalo = sc.nextInt();
+            if (numInicioIntervalo == 0){
+                System.exit(0);
+            }
                 System.out.println("Introduce el número final:");
                 int numFinalIntervalo = sc.nextInt();
                 int contador = 0;
